@@ -1,0 +1,45 @@
+header {
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 15px;
+}
+
+.logo a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.new-btn {
+  padding: 8px 12px;
+  color: #000814;
+  background-color: #ffd60a;
+  cursor: pointer;
+  border: 2px solid #ffd60a;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 200ms linear;
+}
+
+.new-btn:focus {
+  outline: none;
+}
+
+.new-btn:hover {
+  color: #ffd60a;
+  background-color: transparent;
+}
